@@ -5275,7 +5275,7 @@ components:
         logit_bias: &completions_logit_bias
           type: object
           x-oaiTypeLabel: map
-          default: null
+          default: {}
           nullable: true
           additionalProperties:
             type: integer
@@ -5944,7 +5944,7 @@ components:
         logit_bias:
           type: object
           x-oaiTypeLabel: map
-          default: null
+          default: {}
           nullable: true
           additionalProperties:
             type: integer
